@@ -24,6 +24,7 @@ public class SandersMod
 {
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
+    public static final String MOD_ID = "ssmod";
 
     public SandersMod() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);

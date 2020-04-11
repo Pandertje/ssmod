@@ -15,11 +15,11 @@ displayName="Sanders Mod" #mandatory
 
 updateJSONURL="http://myurl.me/" #optional
 
-displayURL="svdoetelaar.nl" #optional
+displayURL="http://www.svdoetelaar.nl" #optional
 
 logoFile="examplemod.png" #optional
 
-credits="Thanks for this example mod goes to Java" #optional
+credits="Special thanks to my incredible programming skills" #optional
 
 authors="Sander van den Oetelaar" #optional
 
