@@ -1,5 +1,6 @@
 package com.svdoetelaar.ssmod;
 
+import com.svdoetelaar.ssmod.util.RegistryHandler;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -30,6 +31,7 @@ public class SandersMod
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
+        RegistryHandler.init();
 
         MinecraftForge.EVENT_BUS.register(this);
     }
