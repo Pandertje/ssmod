@@ -1,4 +1,6 @@
 {
   "item.ssmod.wither_ingot": "Wither Ingot",
-  "itemGroup.ss": "ss"
+  "itemGroup.ss": "ss",
+
+  "block.ssmod.wither_essence_ore": "Wither essence ore"
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ssmod:blocks/wither_essence_ore"
+  }
+}
